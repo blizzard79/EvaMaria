@@ -20,7 +20,7 @@ disabled_group=filters.create(disabled_chat)
 @Client.on_message(filters.private & banned_user & filters.incoming)
 async def ban_reply(bot, message):
     ban = await db.get_ban_status(message.from_user.id)
-    await message.reply(f'Sorry Dude, You are Banned to use Me. \nBan Reason: {ban["ban_reason"]}')
+    await message.reply(f'တောင်းပန်ပါတယ် သူငယ်ချင်း၊ မင်း ငါ့ကို သုံးဖို့ တားမြစ်ထားတယ်. \nBan Reason: {ban["ban_reason"]}')
 
 @Client.on_message(filters.group & disabled_group & filters.incoming)
 async def grp_bd(bot, message):
