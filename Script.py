@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """​ဟေ့ {}
 ဒါက ကျွန်ုပ် commands အတွက် အကူအညီပဲ."""
     ABOUT_TXT = """✯ ကျွန်ုပ်နာမည်: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Harrison0_bot>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a>
+✯ ဖန်တီးသူ : <a href=https://t.me/Harrison0_bot>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
