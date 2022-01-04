@@ -52,7 +52,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, {message.chat.title}groups က​နေကြိုဆိုတယ်​နော်🙋‍♂️
- သယ်ရင်း🐶 ကြည့်မယ့် movies/series🎬 nameကို mentမှာရိုက်လိုက်​ရင် bot က​နေ auto ရှာ​ပေးမယ်​နော်💥</b>")
+ သယ်ရင်း🐶 ကြည့်မယ့် movies/series🎬 nameကို mentမှာရိုက်လိုက်​ရင် botက​ auto ရှာ​ပေးတယ်​နော်💥</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
