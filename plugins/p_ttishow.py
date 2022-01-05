@@ -51,7 +51,7 @@ async def save_group(bot, message):
                     await (temp.MELCOW['welcome']).delete()
                 except:
                     pass
-            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, {message.chat.title}groups က​နေကြိုဆိုတယ်​နော်🙋‍♂️ သယ်ရင်း🐶ကြည့်မယ့်('📢 Updates', url='https://t.me/Harrison0_bot') nameကို mentမှာရိုက်လိုက်​ရင် botက​ auto ရှာ​ပေးတယ်​နော်💥</b>")
+            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, {message.chat.title}groups က​နေကြိုဆိုတယ်​နော်🙋‍♂️ သယ်ရင်း🐶ကြည့်မယ့်<a href=https://t.me/Harrison0_bot>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a> nameကို mentမှာရိုက်လိုက်​ရင် botက​ auto ရှာ​ပေးတယ်​နော်💥</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
