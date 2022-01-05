@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('PM စစ်ဆေးပါ။, PM မှာ ဖိုင်ပို့လိုက်ပြီ💝',show_alert = True)
+                await query.answer('PM📩 စစ်ဆေးပါ👀။, 📩PM မှာ ဖိုင် 📥 ပို့ပြီးပြီ။ 💝',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
