@@ -51,7 +51,7 @@ async def save_group(bot, message):
                     await (temp.MELCOW['welcome']).delete()
                 except:
                     pass
-            temp.MELCOW['welcome'] = await message.reply(f"<b>😈Hey , {u.mention}🔥, {message.chat.title}က​နေ😻 ​နွေး​ထွေးစွာကြိုဆိုတယ် ​🙋‍♂️🙉,\n  <a href=https://telegra.ph/%F0%9D%93%A6%F0%9D%93%B1%F0%9D%93%AA%F0%9D%93%BD-%F0%9D%93%BD%F0%9D%93%B8-%F0%9D%94%80%F0%9D%93%AA%F0%9D%93%BD%F0%9D%93%AC%F0%9D%93%B1-01-04>🎬𝓜𝓞𝓥𝓘𝓔 𝓛𝓘𝓢𝓣📽</a> မှာတင်ထားတဲ   🎬🎞​nameတွေကို groupထဲမှာ ရိုက်လိုက်ရင်📝 \n  🤖bot က auto🚍   🔍ရှာ​ပေးပြီး​🔎 pm 📥ပို့​ပေးတယ်\nကဲခုပဲ bot ကို STARTလုပ်ပြီး ကြည့်ချင်တဲ့ 🎬movie name ကိုရိုက်လိုက်​​တော့🔥💥</b>")
+            temp.MELCOW['welcome'] = await message.reply(f"<b>😈Hey , {u.mention}🔥, {message.chat.title}က​နေ😻 ​နွေး​ထွေးစွာကြိုဆိုတယ် ​🙋‍♂️🙉,\n  <a href=https://telegra.ph/%F0%9D%93%A6%F0%9D%93%B1%F0%9D%93%AA%F0%9D%93%BD-%F0%9D%93%BD%F0%9D%93%B8-%F0%9D%94%80%F0%9D%93%AA%F0%9D%93%BD%F0%9D%93%AC%F0%9D%93%B1-01-04>🎬𝓜𝓞𝓥𝓘𝓔 𝓛𝓘𝓢𝓣📽</a> မှာတင်ထားတဲ   🎬🎞​nameတွေကို groupထဲမှာ ရိုက်လိုက်ရင်📝 \n  🤖bot က auto🚍   🔍ရှာ​ပေးပြီး​🔎 pm 📥ပို့​ပေးတယ်\nကဲခုပဲ bot ကို STARTလုပ်ပြီး ကြည့်ချင်တဲ့ 🎬movie name ကို groupထဲမှာ ရိုက်လိုက်​​တော့🔥💥</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
