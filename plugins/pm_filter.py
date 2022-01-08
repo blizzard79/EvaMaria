@@ -692,7 +692,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if not movielist:
-        k = await msg.reply("ဒါနဲ့ ပတ်သက်တာ ဘာမှ ရှာမတွေ့ဘူး။\nစာလုံးပေါင်းကိုစစ်ဆေးပါ။")
+        k = await msg.reply("ဒါနဲ့ ပတ်သက်တာ ဘာမှ ရှာမတွေ့ဘူး။<a href=https://telegra.ph/%F0%9D%93%A6%F0%9D%93%B1%F0%9D%93%AA%F0%9D%93%BD-%F0%9D%93%BD%F0%9D%93%B8-%F0%9D%94%80%F0%9D%93%AA%F0%9D%93%BD%F0%9D%93%AC%F0%9D%93%B1-01-04>🎬𝓜𝓞𝓥𝓘𝓔 𝓛𝓘𝓢𝓣📽</a>မှာတင်ထားလာ?\nစာလုံးပေါင်းကိုစစ်ဆေးပါ။")
         await asyncio.sleep(8)
         await k.delete()
         return
