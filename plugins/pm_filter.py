@@ -666,7 +666,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("အဲဒီနာမည်နဲ့ ရုပ်ရှင်ကို ရှာမတွေ့ပါ။")
+        k = await msg.reply("အဲဒီနာမည်နဲ့ ရုပ်ရှင်ကို ရှာမတွေ့ပါ။<a href=https://telegra.ph/%F0%9D%93%A6%F0%9D%93%B1%F0%9D%93%AA%F0%9D%93%BD-%F0%9D%93%BD%F0%9D%93%B8-%F0%9D%94%80%F0%9D%93%AA%F0%9D%93%BD%F0%9D%93%AC%F0%9D%93%B1-01-04>🎬𝓜𝓞𝓥𝓘𝓔 𝓛𝓘𝓢𝓣📽</a>")
         await asyncio.sleep(8)
         await k.delete()
         return
