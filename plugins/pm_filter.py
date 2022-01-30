@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('👥Groupထဲဝင်ရန်', url='https://t.me/whattowatch7'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('♥️ 𝗠𝗼𝘃𝗶𝗲 𝗟𝗶𝘀𝘁', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
