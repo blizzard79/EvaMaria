@@ -60,7 +60,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "👥Groupထဲဝင်ရန်", url=invite_link
+                    "👥Groupထဲဝင်ရန်", url=invite_link.invite_link
                 )
             ]
         ]
