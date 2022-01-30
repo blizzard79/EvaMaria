@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/Harrison0_bot')
+                InlineKeyboardButton('👥Groupထဲဝင်ရန်', url='https://t.me/whattowatch7')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -38,7 +38,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Harrison0_bot')
+            InlineKeyboardButton('👥Groupထဲဝင်ရန်', url='https://t.me/whattowatch7')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -60,7 +60,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url='https://t.me/harfclone_bot'
+                    "👥Groupထဲဝင်ရန်", url=invite_link
                 )
             ]
         ]
@@ -77,7 +77,7 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Harrison0_bot')
+            InlineKeyboardButton('👥Groupထဲဝင်ရန်', url='https://t.me/whattowatch7')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
