@@ -1,10 +1,10 @@
 class script(object):
     START_TXT = """မင်္ဂလာပါ {},
-ကျွန်ုပ် နာမည် <a href=https://t.me/{}>{}</a>ပါ,ကျွန်ုပ် ရုပ်ရှင်​တွေကို စီစဥ်​ပေးနိုင်တယ်,ကျွန်ုပ်ကို သင့် groupထဲ ​ပျော်​ပျော်ပါးပါး add လိုက်ပါ 😍"""
+ကျွန်ုပ် နာမည် <a href=https://t.me/{}>{}</a>ပါ,ကျွန်ုပ် ရုပ်ရှင်​တွေကို ကြည့်ဖို့,ကျွန်ုပ် groupထဲ ​ပျော်​ပျော်ပါးပါး join လိုက်ပါ 😍"""
     HELP_TXT = """​ဟေ့ {}
 ဒါက ကျွန်ုပ် commands အတွက် အကူအညီပဲ."""
     ABOUT_TXT = """✯ ကျွန်ုပ်နာမည်: {}
-✯ ဖန်တီးသူ : <a href=https://t.me/Harrison0_bot>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a>
+✯ ဖန်တီးသူ : <a href=https://t.me/harrison9>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -15,7 +15,7 @@ class script(object):
 - Source - https://t.me/whattowatch7  
 
 <b>DEVS:</b>
-- <a href=https://t.me/Harrison0_bot>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a>"""
+- <a href=https://t.me/harrison9>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and 𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷 will respond whenever a keyword is found the message
@@ -40,7 +40,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Harrison0_bot)</code>
+<code>[Button Text](buttonurl:https://t.me/whattowatch7)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
