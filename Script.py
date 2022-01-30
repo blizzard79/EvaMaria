@@ -11,8 +11,8 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- 𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷 is a open source project. 
-- Source - https://t.me/whattowatch7  
+- 🅜🅞🅥🅘🅔 🅛🅘🅢🅣 မှာ တင်ထားတဲ့ဟာ group ထဲမှာ ရှာလို့ရပါပြီ
+- 𝘮𝘰𝘷𝘪𝘦 𝘭𝘪𝘴𝘵 - https://telegra.ph/%F0%9D%93%A6%F0%9D%93%B1%F0%9D%93%AA%F0%9D%93%BD-%F0%9D%93%BD%F0%9D%93%B8-%F0%9D%94%80%F0%9D%93%AA%F0%9D%93%BD%F0%9D%93%AC%F0%9D%93%B1-01-04  
 
 <b>DEVS:</b>
 - <a href=https://t.me/harrison9>𝓗𝓪𝓻𝓻𝓲𝓼𝓸𝓷</a>"""
