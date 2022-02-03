@@ -37,8 +37,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('👥Groupထဲဝင်ရန်', url='https://t.me/whattowatch7')
-            InlineKeyboardButton('🎦 List', url='https://telegra.ph/%F0%9D%93%A6%F0%9D%93%B1%F0%9D%93%AA%F0%9D%93%BD-%F0%9D%93%BD%F0%9D%93%B8-%F0%9D%94%80%F0%9D%93%AA%F0%9D%93%BD%F0%9D%93%AC%F0%9D%93%B1-01-04'),
+            InlineKeyboardButton('👥Groupထဲဝင်ရန်', url='https://t.me/whattowatch7'),
+            InlineKeyboardButton('🎦 List', url='https://telegra.ph/%F0%9D%93%A6%F0%9D%93%B1%F0%9D%93%AA%F0%9D%93%BD-%F0%9D%93%BD%F0%9D%93%B8-%F0%9D%94%80%F0%9D%93%AA%F0%9D%93%BD%F0%9D%93%AC%F0%9D%93%B1-01-04')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
