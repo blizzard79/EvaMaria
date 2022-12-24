@@ -18,7 +18,7 @@ AUTH_CHANNEL = -1001513787748
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://laoawan:laoawan@cluster0.5kvsutb.mongodb.net/?retryWrites=true&w=majority"
-DATABASE_NAME = 'Telegram'
+DATABASE_NAME = 'whattowatch7'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
-
+PICS = 'https://telegra.ph/file/6506ab39d47b359113e37.jpg'
 
