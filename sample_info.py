@@ -15,6 +15,7 @@ ADMINS = [5012889763, 'admin123']
 CHANNELS = [-1001730664237, 'channelusername']
 AUTH_USERS = [1404642769]
 AUTH_CHANNEL = -1001513787748
+LOG_CHANNEL = -1001500880176
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://laoawan:laoawan@cluster0.5kvsutb.mongodb.net/?retryWrites=true&w=majority"
